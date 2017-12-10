@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.textoia {
+  float: left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  line-height: 10px;
+}
+.textoia p {
+  text-align: right;
+  margin-bottom: 0px;
+}
+.mano {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mesa {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mesa img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 7%!important;
+}
+
+img {
+  width: 8%;
+}
+
+.reversoia img{
+  width: 5%!important;
+}
+
+.jugable {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.ia {
+  display: none;
+}
+
+.jugable:hover {
+  transform: translate(0px, -50px);
+}
