@@ -19,9 +19,8 @@ function main() {
     let ia = new Ia("ia",baraja,mesa);
     ia.mostrarReverso(baraja);
     mesa.cambiarFondo();
-
+    document.getElementById("juego").requestFullscreen();
     let borraCarta = document.querySelectorAll('.manolo');
-
     for (var i = 0; i < borraCarta.length; i++) {
         borraCarta[i].addEventListener('drop', function (ev) {
 
